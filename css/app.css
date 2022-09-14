@@ -50,6 +50,22 @@
 /*! ------------ 3- ABOUT SECTION ----------- */
 
 /*! ------------- 4- INSTRUCTORS -------------*/
+section#instructors .card {
+    transition: transform 0.5s;
+}
+
+section#instructors .card:hover {
+    transform: scale(1.05);
+}
+
+section#instructors .socials i{
+transition: opacity 0.5s;
+}
+
+section#instructors .socials i:hover{
+    opacity: 0.5;
+}
+
 
 /*! ----------- 4- STUDENTS SECTION ----------*/
 
