@@ -86,3 +86,12 @@ section#courses .nav-link {
 /** -------------- UP-BUTTON ------------------ */
 
 /*! --------------- 7- FOOTER ----------------- */
+footer i {
+    font-size: 2rem;
+    color: white;
+    margin-right: 0.8rem;
+    transition: color 1s;
+}
+footer i:hover{
+    color: var(--red);
+}
